@@ -1,0 +1,361 @@
+ <!DOCTYPE html>
+
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>이력서 - 진선준</title>
+    <meta name="theme-color" content="#3a7bd5" />
+    <meta
+      name="description"
+      content="신입 개발자, 진선준의 이력서입니다."
+    />
+
+    <meta property="og:url" content="https://s-jun-jin.github.io/resume" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="이력서 - 진선준" />
+    <meta property="og:image" content="./resume-cover.png" />
+    <meta
+      property="og:description"
+      content="신입 개발자, 진선준의 이력서입니다."
+    />
+    <meta property="og:locale" content="ko_KR" />
+
+    <meta name="twitter:card" content="summary" />
+    <!-- <meta name="twitter:creator" content="@HyunSeob_" /> -->
+    <meta name="twitter:url" content="https://s-jun-jin.github.io/resume" />
+    <meta name="twitter:title" content="이력서 - 진선준" />
+    <meta
+      name="twitter:description"
+      content="신입 개발자, 진선준의 이력서입니다."
+    />
+    <meta name="twitter:image" content="./resume-cover.png" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+    />
+    <link rel="stylesheet" href="./main.32ee5ef9.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <section>
+        <h2>
+          안녕하십니까,<br />저는 신입 개발자 진선준입니다.<span class="period-mark">.</span>
+        </h2>
+        <p class="big-paragraph"> 
+          경남대학교 컴퓨터공학부를 2026년 2월에 졸업 예정이며, 2025년도 하계방학부터 현재까지 현장 실습을 나가 웹 개발에 대해서 
+          실습을 하며 배우고 있습니다. 현장실습 중인 회사에서는 개발 인력이 부족하여, 프론트와 백엔드를 둘 다 경험해보았습니다. 
+          두 가지 모두 흥미를 가지게 되었습니다. 웹 개발이 아니더라도 신입이기에 다른 기술들을 배울 자세를 가지고 있습니다.
+        </p>
+      </section>
+      <section>
+        <h2>Work Experience<span class="period-mark">.</span></h2>
+        <div class="row">
+          <div class="row-left">
+            <h3>현장실습생<span class="period-mark">.</span></h3>
+            <span class="role">현장실습생</span>
+            <span> <time datetime="2025-06">2025. 06</time> - 현재 </span>
+          </div>
+          <div class="row-right">
+            <div class="project">
+              <h4>
+                제조 현장 디지털 협업 플랫폼<span class="period-mark">.</span>
+              </h4>
+              <span class="time">
+                <time datetime="2025-09">2025. 09</time> - 현재
+              </span>
+              <h5>Description<span class="period-mark">.</span></h5>
+              <p>
+                생산 라인/구역, 설비, 공구, 안전보호구 등의 점검·수리·안전·분석 업무를 통합 관리하여 현장 데이터를 실시간으로 공유하고, 부서 간 협업을 지원하는 스마트팩토리형 웹 시스템
+              </p>
+              <h5>What did I do<span class="period-mark">.</span></h5>
+              <ul>
+                <li>주어진 프론트 프레임워크를 이용하여 고객이 원하는 화면 구성 및 기능 구현</li>
+                <li>각 화면별 데이터를 저장할 테이블 생성 및 테이블에서 정보를 CRUD하는 프로시저 생성해서 사용</li>
+                <li>프레임워크에 없는 필요한 기능들을 찾아보고 상급자와 상의 하여 직접 추가</li>
+                
+              </ul>
+              <h5>Tech Stack<span class="period-mark">.</span></h5>
+              <p>TypeScript, React, MySQL, Stored Procedure(기반 비즈니스 로직) </p>
+            </div>
+            <div class="project">
+              <h4>
+                ESD/EOS 모니터링 시스템<span class="period-mark">.</span>
+              </h4>
+              <span class="time">
+                <time datetime="2025-06-24">2025. 06. 24</time> - 2025. 08. 19
+              </span>
+              <h5>Description<span class="period-mark">.</span></h5>
+              <p>
+                공장 내 정전기와 전압이 흐르고, 온습도계 위치를 대시보드 화면에 표시하여 작업자들이 해당 위치를 한 눈에 파악할 수 
+                있도록하고, 온습도계는 일정 간격으로 신호를 받아 수치와 작동유무를 표시한다. 
+                대시보드에는 범례로 괄호 속 내용을 표시 및 클릭 시 하이라이트 및 자동 재생 (인체 접지 박스, 인체 접지선, 온습도계 등)
+              </p>
+              <h5>What did I do<span class="period-mark">.</span></h5>
+              <ul>
+                <li>대시보드에 표시될 공장들의 정보 및 이미지, 해당 공장의 온습도계 목록을 등록하는 공장 관리 페이지 구현 </li>
+                <li>필요한 테이블을 생성하고 프론트 및 백엔드(service, controller, repository, entity 등) API 구성 </li>
+                <li>대시보드에서 범례 클릭 시 하이라이트 기능 구현</li>
+                
+              </ul>
+              <h5>Tech Stack<span class="period-mark">.</span></h5>
+              <p>TypeScript, React, Maria DB,  </p>
+            </div>
+            </div> 
+           </div>
+          </section> 
+             <!-- <div class="project">
+              <h4>
+                학교 졸작<span class="period-mark">.</span>
+              </h4>
+              <span class="time">
+                <time datetime="2025-06-24">2025. 06. 24</time> - 2025. 08. 19
+              </span>
+              <h5>Description<span class="period-mark">.</span></h5>
+              <p>
+                DK회사의 전체적인 ERP
+              </p>
+              <h5>What did I do<span class="period-mark">.</span></h5>
+              <ul>
+                <li>주어진 프론트 프레임워크를 이용하여 고객이 원하는 화면 구성 및 기능 구현</li>
+                <li>각 화면별 데이터를 저장할 테이블 생성 및 테이블에서 정보를 CRUD하는 프로시저 생성해서 사용</li>
+                <li>프레임워크에 없는 필요한 기능들을 찾아보고 상급자와 상의 하여 직접 추가</li>
+                
+              </ul>
+              <h5>Tech Stack<span class="period-mark">.</span></h5>
+              <p>TypeScript, React, MySQL, Stored Procedure(기반 비즈니스 로직) </p>
+            </div>
+             <div class="project">
+              <h4>
+                데이터 처리 시스템 수업 팀 프로젝트<span class="period-mark">.</span>
+              </h4>
+              <span class="time">
+                <time datetime="2025-06-24">2025. 06. 24</time> - 2025. 08. 19
+              </span>
+              <h5>Description<span class="period-mark">.</span></h5>
+              <p>
+                DK회사의 전체적인 ERP
+              </p>
+              <h5>What did I do<span class="period-mark">.</span></h5>
+              <ul>
+                <li>주어진 프론트 프레임워크를 이용하여 고객이 원하는 화면 구성 및 기능 구현</li>
+                <li>각 화면별 데이터를 저장할 테이블 생성 및 테이블에서 정보를 CRUD하는 프로시저 생성해서 사용</li>
+                <li>프레임워크에 없는 필요한 기능들을 찾아보고 상급자와 상의 하여 직접 추가</li>
+                
+              </ul>
+              <h5>Tech Stack<span class="period-mark">.</span></h5>
+              <p>TypeScript, React, MySQL, Stored Procedure(기반 비즈니스 로직) </p>
+            </div> -->
+        <section>
+        <h2>Other Experiences<span class="period-mark">.</span></h2>
+        <!-- <div class="other">
+          <h3>GDG Korea WebTech<span class="period-mark">.</span></h3>
+          <span class="role">Organizer</span>
+          <span class="time"
+            ><time datetime="2018-08">2018. 08.</time> - 현재</span
+          >
+          <p>
+            구글의 웹 기술 기반 개발자 커뮤니티인 GDG Korea WebTech의
+            오거나이저를 맡고 있습니다. 여러가지 행사를 주최하거나 돕고
+            있습니다.
+          </p>
+        </div>
+        <div class="other">
+          <h3>TypeScript Korea<span class="period-mark">.</span></h3>
+          <span class="role">Organizer</span>
+          <span class="time"
+            ><time datetime="2017-10">2017. 10.</time> -
+            <time datetime="2018-12">2018. 12.</time></span
+          >
+          <p>
+            TypeScript의 사용자 커뮤니티인 TypeScript Korea의 오거나이저를
+            맡았습니다.
+          </p>
+        </div>
+        <div class="other">
+          <h3>Blog<span class="period-mark">.</span></h3>
+          <span class="role">Author, Maintainer</span>
+          <span class="time"
+            ><time datetime="2016-09">2016. 09.</time> - 현재</span
+          >
+          <p>
+            <a href="https://seob.dev/" target="_blank">seob.dev</a>이라는
+            이름의 개인 블로그를 운영하고 있습니다. 비정기적으로 제가 새롭게
+            배우게 된 내용 등을 글로 작성해 공유합니다. 블로그는 Gatsby와
+            ReScript, Vercel을 사용해 구현했습니다. 이전에는
+            <a href="https://hyunseob.github.io" target="_blank"
+              >DailyEngineering</a
+            >
+            이라는 이름의 블로그를 운영했습니다.
+          </p>
+        </div>
+        <div class="other">
+          <h3>ACM-ICPC<span class="period-mark">.</span></h3>
+          <span class="role">Honorable Mention</span>
+          <span class="time"><time datetime="2013-11">2013. 11.</time></span>
+          <p>
+            ACM-ICPC라는 프로그래밍 알고리즘 경진대회에 출전해 학교별 예선에서
+            좋은 성적을 거두고, 지역본선에 학교 대표로 진출했습니다. 아쉽게도
+            본선에서는 입상하지 못했습니다.
+          </p>
+        </div> -->
+         <div class="other">
+          <h3>경남대학교<span class="period-mark">.</span></h3>
+          <span class="role">컴퓨터공학과</span>
+          <span class="time"
+            ><time datetime="2020-03">2020. 03.</time> -
+            <time datetime="2026-02">2026. 02(졸업예정).</time></span
+          >
+          <p>
+            컴퓨터공학과에서 4년간 공부하며 컴퓨터구조, 자료구조,
+            컴퓨터네트워크, 프로그래밍 등의 과목을 준수한 성적으로
+            이수하였습니다. 
+          </p>
+        </div>
+         <div class="other">
+          <h3>정보처리기사(실기 결과 발표 대기)<span class="period-mark">.</span></h3>
+          <p>
+            실습 시작 후 회사를 다니면서 정보처리기사를 취득해야겠다고 마음을 먹고 필기를 쳐서 합격한 후에, 실기 시험을 이번 11월에 치고 결과 발표 대기 중입니다.
+          </p>
+        </div>
+      </section>
+     <section>
+        <h2>Skills<span class="period-mark">.</span></h2>
+         <div class="other">
+          <h3>Communication<span class="period-mark">.</span></h3>
+          <ul>
+           <li>
+            모르는 부분을 적극적으로 물어보며 배울 수 있습니다.
+           </li>
+           <li>
+            배우면서 어떠한 이야기를 듣더라도 일이니 기분 상해하지 않고 사람들과 잘 지낼 수 있습니다.
+           </li>
+            <li>
+            사람들과 업무 외적으로도 잘 지내며 회사 내에서 좋은 분위기를 만들 수 있습니다.
+           </li>
+          </ul>
+         </div>
+      </section>
+      <!-- <section>
+        <h2>Skills<span class="period-mark">.</span></h2>
+        <div class="other">
+          <h3>Overall<span class="period-mark">.</span></h3>
+          <ul>
+            <li>
+              아름다운 유저 인터페이스 및 미려한 애니메이션 구현을 좋아합니다.
+            </li>
+            <li>
+              항상 최신의 기술이 옳다고 여기지 않습니다. 상황에 따라 적절한
+              선택이 있다고 믿습니다.
+            </li>
+            <li>
+              업무에 필요하다면 능숙한 분야가 아니더라도 적극적으로 탐색하여
+              최적의 결과를 낼 수 있도록 노력합니다.
+            </li>
+            <li>
+              회사 혹은 팀의 프로세스 및 문화를 개선하거나 바꾸려는 시도를
+              적극적으로 합니다.
+            </li>
+          </ul>
+        </div>
+        <div class="other">
+          <h3>Communication<span class="period-mark">.</span></h3>
+          <ul>
+            <li>직위 및 포지션에 관계없이 적극적으로 생각을 표현합니다.</li>
+            <li>지적 겸손함을 유지하기 위해 노력합니다.</li>
+            <li>커뮤니케이션은 적은 것보다는 많은게 좋다고 믿습니다.</li>
+          </ul>
+        </div>
+        <div class="other">
+          <h3>Web<span class="period-mark">.</span></h3>
+          <ul>
+            <li>Search Engine Optimization 경험이 있습니다.</li>
+            <li>
+              Internet Explorer, Safari를 비롯해, 다양한 OS 및 브라우저를 지원할
+              수 있습니다.
+            </li>
+            <li>모바일 브라우저에서의 트러블 슈팅 경험이 많습니다.</li>
+          </ul>
+        </div>
+        <div class="other">
+          <h3>JavaScript<span class="period-mark">.</span></h3>
+          <ul>
+            <li>JavaScript와 TypeScript에 능숙합니다.</li>
+            <li>
+              CommonJS, ES Modules의 모듈 시스템에 대해서 이해하고 이에 따라
+              적절한 도구를 활용합니다.
+            </li>
+            <li>Node.js 생태계의 툴링에 익숙합니다.</li>
+            <li>Yarn과 Yarn Berry 사용을 선호합니다.</li>
+          </ul>
+        </div>
+        <div class="other">
+          <h3>React<span class="period-mark">.</span></h3>
+          <ul>
+            <li>
+              React hooks를 능숙하게 사용하고, 거의 모든 컴포넌트를 함수로
+              만듭니다. hook을 이용해 공통 비즈니스 로직을 적절히 모듈화해
+              사용할 수 있습니다.
+            </li>
+            <li>
+              각종 컴포넌트 디자인 패턴에 능숙하며, 합리적인 방식으로 컴포넌트를
+              분리합니다.
+            </li>
+            <li>
+              PureComponent와 React.memo에 대해서 이해하고 적절한 상황에서만
+              사용합니다.
+            </li>
+            <li>Storybook을 사용한 컴포넌트 주도 개발을 할 수 있습니다.</li>
+            <li>Testing Library를 사용하여 테스트코드를 작성할 수 있습니다.</li>
+          </ul>
+        </div>
+        <div class="other">
+          <h3>DevOps<span class="period-mark">.</span></h3>
+          <ul>
+            <li>
+              AWS S3, CloudFront, Lambda@Edge 등을 이용해 어플리케이션 레이어를
+              구성할 수 있습니다.
+            </li>
+            <li>
+              GitHub Actions, Travis, GitLab CI 등의 CI를 구성할 수 있습니다.
+            </li>
+            <li>
+              반복적인 업무 해소를 위해 Node.js로 CLI 도구를 만들 수 있습니다.
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2>Contact<span class="period-mark">.</span></h2>
+        <ul>
+          <li><a href="mailto:mail@hyunseob.me">이메일</a></li>
+          <li>
+            <a href="https://seob.dev" target="_blank">블로그</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/hyunseoblee/" target="_blank"
+              >링크드인</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/hyunseob" target="_blank">깃허브</a>
+          </li>
+          <li>
+            <a href="https://twitter.com/HyunSeob_" target="_blank">트위터</a>
+          </li>
+          <li>
+            <a href="https://facebook.com/hyunseob.lee.7" target="_blank"
+              >페이스북</a
+            >
+          </li>
+        </ul>
+      </section> -->
+    <!-- </div> -->
+  </body>
+</html>
